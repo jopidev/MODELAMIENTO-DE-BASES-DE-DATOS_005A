@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3A65ACF6-745E-A63C-853C-D0C2B022D496" name="PASAJERO">
+<sourceDDLFile>Exp1_S1_Grupo10.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Personas que viajan con la aerolínea.]]></commentInRDBMS>
+<ownerDesignName>Exp1_S1_Grupo10 Ingenieria inversa</ownerDesignName>
+<importedID>34C93346-56DD-5448-0440-6F725F947C3D</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PASAPORTE_CEDULA" id="7EA36580-3578-1AB4-B9D9-7A20F3500999">
+<sourceDDLFile>Exp1_S1_Grupo10.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único del pasajero (pasaporte o cédula).]]></commentInRDBMS>
+<ownerDesignName>Exp1_S1_Grupo10 Ingenieria inversa</ownerDesignName>
+<importedID>1A0618BA-CF22-5BBC-8C2D-FA724A45B861</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3E674E2B-C084-ECD0-18EB-75B00E619E17</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_COMPLETO" id="0E53D75E-CFC1-8DB9-2A24-52D5FA1C26C1">
+<sourceDDLFile>Exp1_S1_Grupo10.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre completo del pasajero.]]></commentInRDBMS>
+<ownerDesignName>Exp1_S1_Grupo10 Ingenieria inversa</ownerDesignName>
+<importedID>ADFBF9DB-7344-7592-05B7-98C4D3671E95</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3FA420DA-100B-D4D9-E75D-3156B2DAAFBF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NACIMIENTO" id="EFA7286D-8D6A-E078-0D12-D52FCE75C788">
+<sourceDDLFile>Exp1_S1_Grupo10.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de nacimiento.]]></commentInRDBMS>
+<ownerDesignName>Exp1_S1_Grupo10 Ingenieria inversa</ownerDesignName>
+<importedID>B8297E4D-FE66-7279-E4D9-EC7E29D98ABE</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>4E5C697E-2D44-D898-E21A-136E11ED34F8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NACIONALIDAD" id="9655F888-6891-7F9B-9FEC-5B10C5453B24">
+<sourceDDLFile>Exp1_S1_Grupo10.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nacionalidad.]]></commentInRDBMS>
+<ownerDesignName>Exp1_S1_Grupo10 Ingenieria inversa</ownerDesignName>
+<importedID>EAC62B1A-90A5-0B47-7DD5-945143A08358</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>92972AB9-815D-501C-9D41-CCF54088B02B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO_CONTACTO" id="E227D18F-64F3-657D-F1ED-2F33A4EB107A">
+<sourceDDLFile>Exp1_S1_Grupo10.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Teléfono de contacto (opcional si hay correo).]]></commentInRDBMS>
+<ownerDesignName>Exp1_S1_Grupo10 Ingenieria inversa</ownerDesignName>
+<importedID>627CAB4D-A324-BC61-4566-3828D71A902B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B3A4A79B-B2E6-A6F3-4CEF-87BFCB64B04C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO_ELECTRONICO" id="2E97B851-5DF5-03FE-FE65-D21FE72F969F">
+<sourceDDLFile>Exp1_S1_Grupo10.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Correo electrónico (opcional si hay teléfono).]]></commentInRDBMS>
+<ownerDesignName>Exp1_S1_Grupo10 Ingenieria inversa</ownerDesignName>
+<importedID>4FF8F80E-EDB8-559F-55EE-9D69081CED2F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3FA420DA-100B-D4D9-E75D-3156B2DAAFBF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="250F7C0C-DA5D-B9C0-802D-FD3119CE20C7" name="PK_PASAJERO">
+<sourceDDLFile>Exp1_S1_Grupo10.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<ownerDesignName>Exp1_S1_Grupo10 Ingenieria inversa</ownerDesignName>
+<importedID>E787B410-9147-E779-29E4-94B4F0E0FB8F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7EA36580-3578-1AB4-B9D9-7A20F3500999"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CHK_P_CONTACT" directorySegmentName="seg_0" id="70C72E75-5F6D-8780-3DF5-FE627B19AD5C">
+<sourceDDLFile>Exp1_S1_Grupo10.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<ownerDesignName>Exp1_S1_Grupo10 Ingenieria inversa</ownerDesignName>
+<importedID>7B790D72-551E-6DA1-147B-A6E519ED2314</importedID>
+<rule><![CDATA[TELEFONO_CONTACTO IS NOT NULL OR CORREO_ELECTRONICO IS NOT NULL]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

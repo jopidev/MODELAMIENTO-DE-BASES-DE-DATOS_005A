@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="RESERVA" directorySegmentName="seg_0" id="9DB3DA8B-2403-B5F4-8E4E-E4F69F60BA0C">
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<ownerDesignName>Exp1_S1_Grupo10</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FECHA_RESERVA" id="275A66CF-E2B6-CBFC-1589-FA558FBF9BC1">
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<ownerDesignName>Exp1_S1_Grupo10</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_VIAJE" id="373A1269-D5B4-8635-533C-17BC3F6023CB">
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<ownerDesignName>Exp1_S1_Grupo10</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RUT_EMPLEADO" id="55EEF97B-10D8-52BA-91CB-2426000E84DF">
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<ownerDesignName>Exp1_S1_Grupo10</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PASAPORTE_CEDULA" id="7AB6FAEC-D029-D550-6989-54665CA41282">
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<ownerDesignName>Exp1_S1_Grupo10</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ESTADO" id="8D384F46-C1B9-10BA-58B8-E538573CB273">
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<ownerDesignName>Exp1_S1_Grupo10</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUMERO_VUELO" id="8DA51F57-DE72-9250-6068-B4D448D1FA67">
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<ownerDesignName>Exp1_S1_Grupo10</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUMERO_RESERVA" id="CCA38044-A30C-D19F-4319-225022337350">
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<ownerDesignName>Exp1_S1_Grupo10</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IX_RESERVA_VUELO" id="52677153-8A91-AC38-6B30-3EB3C5FEF44B">
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<ownerDesignName>Exp1_S1_Grupo10</ownerDesignName>
+<logging></logging>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IX_RESERVA_EMPLEADO" id="7997325F-0667-3617-ADE0-631CAD140BE0">
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<ownerDesignName>Exp1_S1_Grupo10</ownerDesignName>
+<logging></logging>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IX_RESERVA_PASAJERO" id="964E8E1F-B203-12DE-AC1C-C98883602073">
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<ownerDesignName>Exp1_S1_Grupo10</ownerDesignName>
+<logging></logging>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_RES_EMPLEADO" id="07E04128-317C-1AE7-AB8D-DA6A11EFA11D">
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<ownerDesignName>Exp1_S1_Grupo10</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_RES_VUELO" id="1E321BC4-664C-A01A-92BA-0F2711D41646">
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<ownerDesignName>Exp1_S1_Grupo10</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_RES_PASAJERO" id="E951723E-E945-74C1-9CB4-DBE7B454ED51">
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<ownerDesignName>Exp1_S1_Grupo10</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_RESERVA" id="E1AAF88D-85AC-2A04-73E7-4C23C7A7A9E6">
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<ownerDesignName>Exp1_S1_Grupo10</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="CHK_ESTADO" id="1AF30A99-2A24-AD00-11D9-368543643A0B">
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<ownerDesignName>Exp1_S1_Grupo10</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+</tableCheckConstraints>
+</TableProxyOraclev20c>

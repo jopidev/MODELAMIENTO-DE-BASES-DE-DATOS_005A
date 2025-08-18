@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5C2BAEEA-897A-297A-C116-516D80CAC6F9" containerWithKeyObject="9DB3DA8B-2403-B5F4-8E4E-E4F69F60BA0C" localFKIndex="E951723E-E945-74C1-9CB4-DBE7B454ED51" name="FK_RES_PASAJERO">
+<sourceDDLFile>Exp1_S1_Grupo10.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<ownerDesignName>Exp1_S1_Grupo10</ownerDesignName>
+<importedID>9130E8DE-CF7D-30F0-9E44-C60CE9075FFD</importedID>
+<referredTableLongName>PASAJERO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3A65ACF6-745E-A63C-853C-D0C2B022D496</referredTableID>
+<keyObject>250F7C0C-DA5D-B9C0-802D-FD3119CE20C7</keyObject>
+<referredKeyID>250F7C0C-DA5D-B9C0-802D-FD3119CE20C7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PASAPORTE_CEDULA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

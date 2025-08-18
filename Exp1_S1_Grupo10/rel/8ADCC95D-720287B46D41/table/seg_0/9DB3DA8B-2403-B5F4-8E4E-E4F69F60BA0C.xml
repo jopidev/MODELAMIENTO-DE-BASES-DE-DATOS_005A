@@ -1,0 +1,202 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9DB3DA8B-2403-B5F4-8E4E-E4F69F60BA0C" name="RESERVA">
+<sourceDDLFile>Exp1_S1_Grupo10.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Reservas realizadas por pasajeros para vuelos específicos.]]></commentInRDBMS>
+<ownerDesignName>Exp1_S1_Grupo10</ownerDesignName>
+<importedID>0CD584FF-5E4E-5328-2CF7-3A9A1A8872AE</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUMERO_RESERVA" id="CCA38044-A30C-D19F-4319-225022337350">
+<sourceDDLFile>Exp1_S1_Grupo10.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único de la reserva.]]></commentInRDBMS>
+<ownerDesignName>Exp1_S1_Grupo10</ownerDesignName>
+<importedID>9E183BC1-7171-9BCC-1782-B99B3518147E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>388A85D5-975F-8BA8-120D-1158CDD68FD0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_RESERVA" id="275A66CF-E2B6-CBFC-1589-FA558FBF9BC1">
+<sourceDDLFile>Exp1_S1_Grupo10.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha en que se realiza la reserva.]]></commentInRDBMS>
+<ownerDesignName>Exp1_S1_Grupo10</ownerDesignName>
+<importedID>C176D580-F7FC-81B6-0DF8-33C666D5F535</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>4E5C697E-2D44-D898-E21A-136E11ED34F8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_VIAJE" id="373A1269-D5B4-8635-533C-17BC3F6023CB">
+<sourceDDLFile>Exp1_S1_Grupo10.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha del viaje reservado.]]></commentInRDBMS>
+<ownerDesignName>Exp1_S1_Grupo10</ownerDesignName>
+<importedID>4DE85C30-C310-EF72-A39C-A3F4D223E048</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>4E5C697E-2D44-D898-E21A-136E11ED34F8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="8D384F46-C1B9-10BA-58B8-E538573CB273">
+<sourceDDLFile>Exp1_S1_Grupo10.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Estado de la reserva: CONFIRMADO o NULA.]]></commentInRDBMS>
+<ownerDesignName>Exp1_S1_Grupo10</ownerDesignName>
+<importedID>CB562DF1-3009-B983-5AA4-92B559C0B43B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>388A85D5-975F-8BA8-120D-1158CDD68FD0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASAPORTE_CEDULA" id="7AB6FAEC-D029-D550-6989-54665CA41282">
+<sourceDDLFile>Exp1_S1_Grupo10.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Pasajero que realiza la reserva.]]></commentInRDBMS>
+<ownerDesignName>Exp1_S1_Grupo10</ownerDesignName>
+<importedID>9C45C5E9-E8AB-5242-C47B-34B39BD4E774</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3E674E2B-C084-ECD0-18EB-75B00E619E17</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C2BAEEA-897A-297A-C116-516D80CAC6F9" referredColumn="7EA36580-3578-1AB4-B9D9-7A20F3500999"/>
+</associations>
+</Column>
+<Column name="NUMERO_VUELO" id="8DA51F57-DE72-9250-6068-B4D448D1FA67">
+<sourceDDLFile>Exp1_S1_Grupo10.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Vuelo reservado.]]></commentInRDBMS>
+<ownerDesignName>Exp1_S1_Grupo10</ownerDesignName>
+<importedID>5ABDF0EB-7976-1D68-2B86-0E95E8E00805</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AF67D6AD-5E13-EFAD-2A2D-C2364D459081</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5CA4E2D4-5677-FCD5-A637-254D290D56B5" referredColumn="5B3250C8-3EF6-DA4C-6755-AE77DFBA73E0"/>
+</associations>
+</Column>
+<Column name="RUT_EMPLEADO" id="55EEF97B-10D8-52BA-91CB-2426000E84DF">
+<sourceDDLFile>Exp1_S1_Grupo10.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Empleado que atendió/gestionó la reserva.]]></commentInRDBMS>
+<ownerDesignName>Exp1_S1_Grupo10</ownerDesignName>
+<importedID>B68A95E5-F0B0-2479-EE55-D670F3FABB81</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>388A85D5-975F-8BA8-120D-1158CDD68FD0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A617BCCA-362C-FD85-4139-2F57621FA756" referredColumn="AA10B75A-1C23-5FCF-AEFA-96A6D3D802F4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E1AAF88D-85AC-2A04-73E7-4C23C7A7A9E6" name="PK_RESERVA">
+<sourceDDLFile>Exp1_S1_Grupo10.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<ownerDesignName>Exp1_S1_Grupo10</ownerDesignName>
+<importedID>DD2BA542-C56D-C192-72A2-C8971B308B0F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCA38044-A30C-D19F-4319-225022337350"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="52677153-8A91-AC38-6B30-3EB3C5FEF44B" name="IX_RESERVA_VUELO">
+<sourceDDLFile>Exp1_S1_Grupo10.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<ownerDesignName>Exp1_S1_Grupo10</ownerDesignName>
+<importedID>76D2F1DB-F175-03EA-4538-79B12D20BE4B</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DA51F57-DE72-9250-6068-B4D448D1FA67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="964E8E1F-B203-12DE-AC1C-C98883602073" name="IX_RESERVA_PASAJERO">
+<sourceDDLFile>Exp1_S1_Grupo10.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<ownerDesignName>Exp1_S1_Grupo10</ownerDesignName>
+<importedID>5D265D3C-43CD-BB80-F3C6-C4B997AEEB04</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7AB6FAEC-D029-D550-6989-54665CA41282"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7997325F-0667-3617-ADE0-631CAD140BE0" name="IX_RESERVA_EMPLEADO">
+<sourceDDLFile>Exp1_S1_Grupo10.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<ownerDesignName>Exp1_S1_Grupo10</ownerDesignName>
+<importedID>1A2A3586-9C21-5081-5D60-8F43EB472E49</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55EEF97B-10D8-52BA-91CB-2426000E84DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07E04128-317C-1AE7-AB8D-DA6A11EFA11D" name="FK_RES_EMPLEADO">
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<ownerDesignName>Exp1_S1_Grupo10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55EEF97B-10D8-52BA-91CB-2426000E84DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E951723E-E945-74C1-9CB4-DBE7B454ED51" name="FK_RES_PASAJERO">
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<ownerDesignName>Exp1_S1_Grupo10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7AB6FAEC-D029-D550-6989-54665CA41282"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E321BC4-664C-A01A-92BA-0F2711D41646" name="FK_RES_VUELO">
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<ownerDesignName>Exp1_S1_Grupo10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DA51F57-DE72-9250-6068-B4D448D1FA67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CHK_ESTADO" directorySegmentName="seg_0" id="1AF30A99-2A24-AD00-11D9-368543643A0B">
+<sourceDDLFile>Exp1_S1_Grupo10.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<ownerDesignName>Exp1_S1_Grupo10</ownerDesignName>
+<importedID>D76D9FB4-73A9-CBDC-AE6C-074AF7186BE8</importedID>
+<rule><![CDATA[UPPER(ESTADO) IN ('CONFIRMADO','NULA')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

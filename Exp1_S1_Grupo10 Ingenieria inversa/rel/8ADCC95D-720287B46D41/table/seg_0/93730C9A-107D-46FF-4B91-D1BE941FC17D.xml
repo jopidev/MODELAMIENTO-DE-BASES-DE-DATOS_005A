@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="93730C9A-107D-46FF-4B91-D1BE941FC17D" name="VUELO">
+<sourceDDLFile>Exp1_S1_Grupo10.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Vuelos programados por la aerolínea.]]></commentInRDBMS>
+<ownerDesignName>Exp1_S1_Grupo10 Ingenieria inversa</ownerDesignName>
+<importedID>AB8EAE28-5122-FEE0-8D80-F42B20D55801</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUMERO_VUELO" id="5B3250C8-3EF6-DA4C-6755-AE77DFBA73E0">
+<sourceDDLFile>Exp1_S1_Grupo10.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único del vuelo.]]></commentInRDBMS>
+<ownerDesignName>Exp1_S1_Grupo10 Ingenieria inversa</ownerDesignName>
+<importedID>3FDE6673-35BC-2697-0A2C-67D397E5C7BC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AF67D6AD-5E13-EFAD-2A2D-C2364D459081</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_DESPEGUE" id="BE6BC02B-4965-2427-6F7D-6BD8390AB605">
+<sourceDDLFile>Exp1_S1_Grupo10.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de despegue.]]></commentInRDBMS>
+<ownerDesignName>Exp1_S1_Grupo10 Ingenieria inversa</ownerDesignName>
+<importedID>73370A37-C993-D84B-D759-F196362A21B7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>4E5C697E-2D44-D898-E21A-136E11ED34F8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_LLEGADA" id="4DDB989D-46B5-B95E-1A6C-A7CDE29F7ED8">
+<sourceDDLFile>Exp1_S1_Grupo10.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de llegada al aeropuerto de destino.]]></commentInRDBMS>
+<ownerDesignName>Exp1_S1_Grupo10 Ingenieria inversa</ownerDesignName>
+<importedID>6523C13D-E3D1-6013-72EF-FC24FDF63089</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>4E5C697E-2D44-D898-E21A-136E11ED34F8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORA_SALIDA" id="BC699CF7-C6A4-C3A1-D29A-AA08E2F94170">
+<sourceDDLFile>Exp1_S1_Grupo10.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Hora de salida del aeropuerto.]]></commentInRDBMS>
+<ownerDesignName>Exp1_S1_Grupo10 Ingenieria inversa</ownerDesignName>
+<importedID>785B32DF-1B81-9A7A-1D15-8AB525CBE9ED</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>4E5C697E-2D44-D898-E21A-136E11ED34F8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D59DA928-71A1-ABC2-374D-04B22EE1C777" name="PK_VUELO">
+<sourceDDLFile>Exp1_S1_Grupo10.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-08-18 18:28:50 UTC</createdTime>
+<ownerDesignName>Exp1_S1_Grupo10 Ingenieria inversa</ownerDesignName>
+<importedID>7D30CFA6-D47D-94C2-3D13-80B3D1661B19</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B3250C8-3EF6-DA4C-6755-AE77DFBA73E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
