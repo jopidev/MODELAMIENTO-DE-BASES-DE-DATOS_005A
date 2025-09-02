@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B363EB9A-8895-C228-F841-3A6941A66EAC" name="RESIDENTE PERMANENTE">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:48 UTC</createdTime>
+<generatorID>025D1FCA-CD85-D23D-6B3E-D6E0F54FDE57</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<engineerTo>
+<item key="AE7D182E-CB96-0716-9F3A-8B121590C338" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID RESIDENTE" id="A4C62B7D-354F-8528-0C40-66C4DAFFBE81">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:48 UTC</createdTime>
+<generatorID>CCDE0B0E-6CAA-B1FD-B6D8-C7383DE19D18</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<engineerTo>
+<item key="AE7D182E-CB96-0716-9F3A-8B121590C338" value="true"/>
+</engineerTo>
+<referedAttribute>30CA3D90-2DCE-7286-3126-4CDED584F940</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E0B83F5A-E1C5-3265-92E4-5DDB70A060FD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HISTORIAL CLINICO" id="58AFB2A7-BA95-E5AC-716B-D8AB2205DD32">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:48 UTC</createdTime>
+<generatorID>2C6A5054-7EBD-32AD-66D5-A26101C83A3B</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<engineerTo>
+<item key="AE7D182E-CB96-0716-9F3A-8B121590C338" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FE004D16-3A4A-C8B0-47AC-49EB20A3783E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AB0E1D6D-81CD-4406-D45B-DCB5FB387A99" name="PK RES PERM">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:48 UTC</createdTime>
+<generatorID>E2FB60FB-D14B-7039-4A05-36E4F65D199A</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<engineerTo>
+<item key="AE7D182E-CB96-0716-9F3A-8B121590C338" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A4C62B7D-354F-8528-0C40-66C4DAFFBE81</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

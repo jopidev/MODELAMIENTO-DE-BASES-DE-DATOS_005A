@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="CUIDADOR" directorySegmentName="seg_0" id="9686EE4A-B8DE-736D-2899-34EA6240AB8D">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:15 UTC</createdTime>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_PERSONAL" id="9D01D797-3257-E588-C701-6489D819E477">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:15 UTC</createdTime>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CUIDADOR_PERSONAL" id="FE469997-2833-A2E3-6B23-7C8ED0EE7FC3">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:15 UTC</createdTime>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_CUIDADOR" id="FD692317-73B9-71A2-DF08-D15B79FBC84B">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:15 UTC</createdTime>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Exp1_S3" id="81272330-D644-574D-1FE4-B609658AAC04" version="3.5">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:18:32 UTC</createdTime>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>81272330-D644-574D-1FE4-B609658AAC04</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="CF908250-08F1-1868-4A9D-3C9545A93E90">
+<designStoragePath>C:\vivir_mejor_semana3_mer_e</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

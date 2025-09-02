@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3446229C-B4FC-E8A9-D1ED-C261259C6C0A" name="MEDICO">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:48 UTC</createdTime>
+<generatorID>CCD8E669-CA58-B13D-DF77-02193BD74EB7</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<engineerTo>
+<item key="AE7D182E-CB96-0716-9F3A-8B121590C338" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID PERSONAL" id="C5462DB1-B925-EBAD-3CC6-0C78E4261748">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:48 UTC</createdTime>
+<generatorID>268FAE82-0D73-CC3D-8E44-B66538CC4C04</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<engineerTo>
+<item key="AE7D182E-CB96-0716-9F3A-8B121590C338" value="true"/>
+</engineerTo>
+<referedAttribute>2FE95167-1583-051E-2C64-2E5389D2243E</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E0B83F5A-E1C5-3265-92E4-5DDB70A060FD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESPECIALIDAD" id="8D119705-9E6E-1AC0-AFCF-AF38CAF90B66">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:48 UTC</createdTime>
+<generatorID>8DC53C99-A28A-22C0-35DB-7F686F4BD736</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<engineerTo>
+<item key="AE7D182E-CB96-0716-9F3A-8B121590C338" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>640AC876-1059-2F74-425C-388A9A5F6E60</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID SUPERVISOR" id="1463346F-022C-14EE-95F4-CE71272244F7">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:48 UTC</createdTime>
+<generatorID>C445BA3D-F3BE-D180-6759-393CEE6D9BF5</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<engineerTo>
+<item key="AE7D182E-CB96-0716-9F3A-8B121590C338" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>C5462DB1-B925-EBAD-3CC6-0C78E4261748</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E0B83F5A-E1C5-3265-92E4-5DDB70A060FD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0CCA1724-426B-7204-DF7B-0131B2AD8BED" name="PK MEDICO">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:48 UTC</createdTime>
+<generatorID>A352F76C-BC77-C684-E108-3F03B2BACCC7</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<engineerTo>
+<item key="AE7D182E-CB96-0716-9F3A-8B121590C338" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C5462DB1-B925-EBAD-3CC6-0C78E4261748</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

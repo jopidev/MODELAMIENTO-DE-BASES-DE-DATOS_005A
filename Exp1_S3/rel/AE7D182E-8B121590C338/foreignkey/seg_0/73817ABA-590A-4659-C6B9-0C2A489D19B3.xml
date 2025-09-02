@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="73817ABA-590A-4659-C6B9-0C2A489D19B3" containerWithKeyObject="6326C48E-A3CE-F96A-456B-CA59CF373B06" localFKIndex="958B4A1E-0396-C1EB-53C5-7CB6376774AE" name="FK_CON_APODERADO">
+<sourceDDLFile>vivir_mejor_semana3_mer_e.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:15 UTC</createdTime>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<importedID>D3C778D0-E97F-E41E-0635-7A2D9D6753F0</importedID>
+<referredTableLongName>APODERADO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FF852A82-2002-D1A9-8F64-25805E03D146</referredTableID>
+<keyObject>B41ED54D-B3A1-5B27-68A6-BD875C3459BE</keyObject>
+<referredKeyID>B41ED54D-B3A1-5B27-68A6-BD875C3459BE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_APODERADO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

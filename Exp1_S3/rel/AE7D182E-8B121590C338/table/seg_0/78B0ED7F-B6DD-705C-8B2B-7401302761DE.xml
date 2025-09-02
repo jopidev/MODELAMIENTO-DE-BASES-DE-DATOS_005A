@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="78B0ED7F-B6DD-705C-8B2B-7401302761DE" name="HABITACION">
+<sourceDDLFile>vivir_mejor_semana3_mer_e.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:15 UTC</createdTime>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<importedID>59BE116E-7F96-8BD3-12FD-DB425FAB45AE</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_HABITACION" id="6281BA5A-73D0-FCCC-BB4D-543DA2B4C8A6">
+<sourceDDLFile>vivir_mejor_semana3_mer_e.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:15 UTC</createdTime>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<importedID>8B21F660-1935-99F4-23B1-2DF99B7AB684</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E0B83F5A-E1C5-3265-92E4-5DDB70A060FD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_RESIDENCIA" id="6DB84451-BC27-5A17-22B7-E4C878A5EFE5">
+<sourceDDLFile>vivir_mejor_semana3_mer_e.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:15 UTC</createdTime>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<importedID>C6127757-0C21-E03B-4661-C19E57A665D9</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E0B83F5A-E1C5-3265-92E4-5DDB70A060FD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0ECF44C4-2A60-46BA-B363-9995794782B4" referredColumn="55E30479-BBEA-C24D-42B1-14CFA1096AC1"/>
+</associations>
+</Column>
+<Column name="NUMERO" id="8F105D44-599A-4866-312E-59654EEE26FF">
+<sourceDDLFile>vivir_mejor_semana3_mer_e.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:15 UTC</createdTime>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<importedID>0409AA74-3754-41DF-CB27-10120CE07AB5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>89E44D8A-3FC2-FC76-B022-A594B47B151D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO" id="331C6FDB-18C0-23F1-DBF1-E23B52833CB0">
+<sourceDDLFile>vivir_mejor_semana3_mer_e.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:15 UTC</createdTime>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<importedID>2B7A5352-9E0B-4511-BAA5-C74059521917</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6A6F8736-53C8-D3B5-28AB-EFEA13F8EBB2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F73E84B-70FB-2CD4-40E1-872952ACCC75" name="PK_HABITACION">
+<sourceDDLFile>vivir_mejor_semana3_mer_e.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:15 UTC</createdTime>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<importedID>32A437C2-CFF8-9049-F49F-025BC9F60489</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6281BA5A-73D0-FCCC-BB4D-543DA2B4C8A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC3C2F9A-D6F1-E8E3-4CC4-15D0DB270018" name="IX_HAB_RESIDENCIA">
+<sourceDDLFile>vivir_mejor_semana3_mer_e.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:15 UTC</createdTime>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<importedID>A7E48936-99B7-0278-CD10-7DDFE8FBC9DD</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DB84451-BC27-5A17-22B7-E4C878A5EFE5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E543FA3A-DC44-0D1C-1A96-CECB5150D19D" name="FK_HAB_RESIDENCIA">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:15 UTC</createdTime>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DB84451-BC27-5A17-22B7-E4C878A5EFE5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CHK_HAB_TIPO" directorySegmentName="seg_0" id="64423395-DEE0-976F-47FD-11F9BBB49D34">
+<sourceDDLFile>vivir_mejor_semana3_mer_e.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:15 UTC</createdTime>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<importedID>A540A5F0-E182-0A7C-366F-47134DE91F32</importedID>
+<rule><![CDATA[UPPER(TIPO) IN ('INDIVIDUAL','COMPARTIDA')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

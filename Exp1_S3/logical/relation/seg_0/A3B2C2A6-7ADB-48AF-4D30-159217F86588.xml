@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_ANEXO_CONTRATO" directorySegmentName="seg_0" id="A3B2C2A6-7ADB-48AF-4D30-159217F86588">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:48 UTC</createdTime>
+<generatorID>EA4C637D-6B34-A444-C265-B7BC413B7965</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<engineerTo>
+<item key="AE7D182E-CB96-0716-9F3A-8B121590C338" value="true"/>
+</engineerTo>
+<sourcePk>C14D02F0-8195-2560-C6E7-E8437DA2D361</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>980201DD-6C57-8357-B844-1294DE373DED</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7A3027B9-E076-5140-F9D3-7C0AEDA57DEA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

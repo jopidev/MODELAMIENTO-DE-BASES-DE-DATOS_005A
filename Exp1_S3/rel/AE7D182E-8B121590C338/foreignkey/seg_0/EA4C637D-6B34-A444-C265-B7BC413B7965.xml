@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EA4C637D-6B34-A444-C265-B7BC413B7965" containerWithKeyObject="57ACD218-0F58-1696-21B4-1859FA5FA0C4" localFKIndex="4F46AF51-E79A-D1E7-6659-980A409482BD" name="FK_ANEXO_CONTRATO">
+<sourceDDLFile>vivir_mejor_semana3_mer_e.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:15 UTC</createdTime>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<importedID>72FF745B-E513-D54E-46BF-A2DFBE7C90FA</importedID>
+<referredTableLongName>CONTRATO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6326C48E-A3CE-F96A-456B-CA59CF373B06</referredTableID>
+<keyObject>EF01F3FB-9D23-2FAE-B6F2-17CE4ABC5EA0</keyObject>
+<referredKeyID>EF01F3FB-9D23-2FAE-B6F2-17CE4ABC5EA0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_CONTRATO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

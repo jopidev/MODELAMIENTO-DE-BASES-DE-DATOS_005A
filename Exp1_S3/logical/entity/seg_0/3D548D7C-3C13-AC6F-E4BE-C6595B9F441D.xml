@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3D548D7C-3C13-AC6F-E4BE-C6595B9F441D" name="RESIDENTE">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:48 UTC</createdTime>
+<generatorID>D90949C6-B7B4-E9C7-D734-A8175726B917</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<engineerTo>
+<item key="AE7D182E-CB96-0716-9F3A-8B121590C338" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID RESIDENTE" id="30CA3D90-2DCE-7286-3126-4CDED584F940">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:48 UTC</createdTime>
+<generatorID>284F3DD7-6C08-D0B9-7372-0058157730C2</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<engineerTo>
+<item key="AE7D182E-CB96-0716-9F3A-8B121590C338" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E0B83F5A-E1C5-3265-92E4-5DDB70A060FD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="0FB2D286-8637-14F5-C3D0-E1ADAE037570">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:48 UTC</createdTime>
+<generatorID>74A22570-A3F6-D19E-1822-D8F00F6919D7</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<engineerTo>
+<item key="AE7D182E-CB96-0716-9F3A-8B121590C338" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6335BB85-EE55-FAA5-F0BB-2072ED8BA866</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EDAD" id="B7EF11F3-8B05-84B9-8E53-DE32A36FC32D">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:48 UTC</createdTime>
+<generatorID>8E77C2B8-6A34-C4E5-3A23-FA3E6A21E8AF</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<engineerTo>
+<item key="AE7D182E-CB96-0716-9F3A-8B121590C338" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4CA27E5A-CAD8-18E6-7A03-F541549BE0D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AUTONOMIA" id="7ED3D99A-A6B2-A01D-D9ED-F09536E2309E">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:48 UTC</createdTime>
+<generatorID>3235E9D3-6EE6-9A0C-C8E1-0DDA4FA81D23</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<engineerTo>
+<item key="AE7D182E-CB96-0716-9F3A-8B121590C338" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>15101114-D25E-6DEA-BFC4-435BB264F41A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9FDEA3E1-3B51-8345-A0CC-EE56BF005045" name="PK RESIDENTE">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:48 UTC</createdTime>
+<generatorID>886CD065-E5C7-21A2-7F85-B68570DF9764</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<engineerTo>
+<item key="AE7D182E-CB96-0716-9F3A-8B121590C338" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>30CA3D90-2DCE-7286-3126-4CDED584F940</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

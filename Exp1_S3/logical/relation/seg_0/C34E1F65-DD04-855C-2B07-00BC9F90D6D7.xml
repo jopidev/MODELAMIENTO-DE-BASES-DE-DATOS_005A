@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_PER_RESIDENCIA" directorySegmentName="seg_0" id="C34E1F65-DD04-855C-2B07-00BC9F90D6D7">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:48 UTC</createdTime>
+<generatorID>5D6CAF22-1952-BF04-A410-F42829EA41DE</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<engineerTo>
+<item key="AE7D182E-CB96-0716-9F3A-8B121590C338" value="true"/>
+</engineerTo>
+<sourcePk>83796087-A2C9-4591-52CF-36F1CD0B7042</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E74814D6-3143-3501-D955-8C52A172A24E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6AAB35FA-6D41-2BBE-736A-CFD41B2FAF02</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CCD8E669-CA58-B13D-DF77-02193BD74EB7" name="MEDICO">
+<sourceDDLFile>vivir_mejor_semana3_mer_e.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:15 UTC</createdTime>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<importedID>92DF1C64-4FD5-5781-4F43-25E30094C6D9</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PERSONAL" id="3429BBF8-C5D3-939D-D9CA-1564BFA39F49">
+<sourceDDLFile>vivir_mejor_semana3_mer_e.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:15 UTC</createdTime>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<importedID>1CCCE282-9B15-B1A6-DCA6-AE332249D250</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E0B83F5A-E1C5-3265-92E4-5DDB70A060FD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A40BE065-CAD0-EF44-F102-AED33BE30939" referredColumn="80D52F3D-776D-89B6-4A9D-5E116D221F14"/>
+</associations>
+</Column>
+<Column name="ESPECIALIDAD" id="8DC53C99-A28A-22C0-35DB-7F686F4BD736">
+<sourceDDLFile>vivir_mejor_semana3_mer_e.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:15 UTC</createdTime>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<importedID>0B522C2D-0636-8CFA-17E0-836443B5A55F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>640AC876-1059-2F74-425C-388A9A5F6E60</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_SUPERVISOR" id="CD160377-76A5-D50A-827A-A1333823B3EC">
+<sourceDDLFile>vivir_mejor_semana3_mer_e.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:15 UTC</createdTime>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<importedID>EE528ABF-7FF8-283C-BE82-D389B77B8405</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E0B83F5A-E1C5-3265-92E4-5DDB70A060FD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A66BBCF0-2CE3-E766-AB64-5167371EF7C8" referredColumn="3429BBF8-C5D3-939D-D9CA-1564BFA39F49"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A352F76C-BC77-C684-E108-3F03B2BACCC7" name="PK_MEDICO">
+<sourceDDLFile>vivir_mejor_semana3_mer_e.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:15 UTC</createdTime>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<importedID>68E1C041-CC4A-13A7-7F79-B4FD0E495BF3</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3429BBF8-C5D3-939D-D9CA-1564BFA39F49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F0D81A9-FA34-F964-CCB2-87CD3131751F" name="IX_MED_SUPERVISOR">
+<sourceDDLFile>vivir_mejor_semana3_mer_e.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:15 UTC</createdTime>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<importedID>1B91CFAA-1989-CCB6-37B9-964050052359</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD160377-76A5-D50A-827A-A1333823B3EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A41C5DCA-ACD8-CB66-D15B-F0B8FED75B9D" name="FK_MEDICO_PERSONAL">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:15 UTC</createdTime>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3429BBF8-C5D3-939D-D9CA-1564BFA39F49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0728DCFB-FD7A-4F04-621A-D2C63FDA6A1A" name="FK_MEDICO_SUPERVISOR">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:15 UTC</createdTime>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD160377-76A5-D50A-827A-A1333823B3EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

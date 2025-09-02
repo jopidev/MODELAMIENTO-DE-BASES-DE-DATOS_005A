@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_ANEXO_RESIDENTE" directorySegmentName="seg_0" id="E3C6C157-ED25-2EA6-97B9-2FB30094F004">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:48 UTC</createdTime>
+<generatorID>54478D03-36F7-B748-0E03-2D54FEB4F2E5</generatorID>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<engineerTo>
+<item key="AE7D182E-CB96-0716-9F3A-8B121590C338" value="true"/>
+</engineerTo>
+<sourcePk>9FDEA3E1-3B51-8345-A0CC-EE56BF005045</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3D548D7C-3C13-AC6F-E4BE-C6595B9F441D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7A3027B9-E076-5140-F9D3-7C0AEDA57DEA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="025D1FCA-CD85-D23D-6B3E-D6E0F54FDE57" name="RESIDENTE_PERMANENTE">
+<sourceDDLFile>vivir_mejor_semana3_mer_e.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:15 UTC</createdTime>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<importedID>D50F128E-F1A6-0A0E-8CD7-8B48FE00340C</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_RESIDENTE" id="EC9B34C8-0700-780A-775E-BD54EB476A17">
+<sourceDDLFile>vivir_mejor_semana3_mer_e.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:15 UTC</createdTime>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<importedID>500FACD0-79B0-8162-0546-4E0DEB2C49DD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E0B83F5A-E1C5-3265-92E4-5DDB70A060FD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B10AB0D6-080A-7EF6-F37C-CFAA0EC49FAB" referredColumn="284F3DD7-6C08-D0B9-7372-0058157730C2"/>
+</associations>
+</Column>
+<Column name="HISTORIAL_CLINICO" id="2C6A5054-7EBD-32AD-66D5-A26101C83A3B">
+<sourceDDLFile>vivir_mejor_semana3_mer_e.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:15 UTC</createdTime>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<importedID>2375D5A4-AE9E-AA46-0074-D855826318E8</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FE004D16-3A4A-C8B0-47AC-49EB20A3783E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E2FB60FB-D14B-7039-4A05-36E4F65D199A" name="PK_RES_PERM">
+<sourceDDLFile>vivir_mejor_semana3_mer_e.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:15 UTC</createdTime>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<importedID>746AC3A2-1CA8-E318-071F-B7488615257A</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC9B34C8-0700-780A-775E-BD54EB476A17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E11DE0F-0849-C1CE-7501-4F8EF55EDEE4" name="FK_RES_PERM_RES">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-02 01:19:15 UTC</createdTime>
+<ownerDesignName>Exp1_S3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC9B34C8-0700-780A-775E-BD54EB476A17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
