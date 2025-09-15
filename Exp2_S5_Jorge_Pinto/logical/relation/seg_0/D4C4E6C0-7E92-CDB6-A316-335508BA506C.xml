@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_MED_ESP" directorySegmentName="seg_0" id="D4C4E6C0-7E92-CDB6-A316-335508BA506C">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:42:25 UTC</createdTime>
+<generatorID>794B2D6D-E0C7-E855-C3BA-35DA21734D7E</generatorID>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<engineerTo>
+<item key="F7C49392-C3AC-D3DF-F56A-335C48551078" value="true"/>
+</engineerTo>
+<sourcePk>E75B92E7-93E8-B97A-8429-6268D49F6724</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>858AC457-062B-3495-5B11-C603918BB7E5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CDD9F3D6-D69C-D82E-2DF0-D1618F665BBE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

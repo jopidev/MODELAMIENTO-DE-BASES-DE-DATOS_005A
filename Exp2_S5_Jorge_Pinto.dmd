@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Exp2_S5_Jorge_Pinto" id="5459AD02-91B7-7208-6FE8-F436597CCCB5" version="3.5">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:35:08 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>5459AD02-91B7-7208-6FE8-F436597CCCB5</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="657651E2-A99C-3AF9-8D07-6DD82466DB89">
+<designStoragePath>C:\centro_medico_semana5</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="C8C84E10-A40D-1B46-9007-7E3E5EE5682D">
+<designStoragePath>C:\centro_medico_semana5</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5AC9ED95-9576-3214-1EC1-6680EF2517B1" name="ATENCION">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:42:25 UTC</createdTime>
+<generatorID>8BCCD9FE-AD3F-B17A-7DE0-DD92A6A91C5F</generatorID>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<engineerTo>
+<item key="F7C49392-C3AC-D3DF-F56A-335C48551078" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID ATENCION" id="A6F22810-EF0B-A957-52ED-28B1A5EBAAD8">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:42:25 UTC</createdTime>
+<generatorID>5280BB89-EBB6-D428-05E3-ED5E423C7FD6</generatorID>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<engineerTo>
+<item key="F7C49392-C3AC-D3DF-F56A-335C48551078" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>96B11382-8F68-ED69-8562-CE739C6365F7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA ATENCION" id="07474C9E-4D42-7794-AC6A-8C81EB23FB40">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:42:25 UTC</createdTime>
+<generatorID>F4FF5405-F49C-7927-99FC-4EF6D571E663</generatorID>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<engineerTo>
+<item key="F7C49392-C3AC-D3DF-F56A-335C48551078" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>3F1C4184-0CBB-BD5B-0F25-24760DB0E76B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO ATENCION" id="192868C7-48AA-D822-F564-EA6CF8EF5DC9">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:42:25 UTC</createdTime>
+<generatorID>AF02A314-0058-4F63-85EB-FD8C4D4E9237</generatorID>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<engineerTo>
+<item key="F7C49392-C3AC-D3DF-F56A-335C48551078" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AE00D354-EAFB-9FC9-8A5D-49C4F71BC4F3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RUT PACIENTE" id="1362C7EF-637B-C781-99EC-39025BD29A6C">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:42:25 UTC</createdTime>
+<generatorID>4194FC99-4649-C224-ADEE-25C15AC3A757</generatorID>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<engineerTo>
+<item key="F7C49392-C3AC-D3DF-F56A-335C48551078" value="true"/>
+</engineerTo>
+<referedAttribute>7E08FFA4-F45D-0440-005D-9E03524A9925</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E86F3686-A0FD-E9FE-C2A1-E9BAB242EC04</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RUT MEDICO" id="02BAC1B2-BA6B-EAA9-E022-2F44E1F879BB">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:42:25 UTC</createdTime>
+<generatorID>F5DCD7AA-584B-FF39-54E8-CF3EF8EB5DD5</generatorID>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<engineerTo>
+<item key="F7C49392-C3AC-D3DF-F56A-335C48551078" value="true"/>
+</engineerTo>
+<referedAttribute>D141ED7D-8321-297E-61DF-E0B34FB66C1E</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E86F3686-A0FD-E9FE-C2A1-E9BAB242EC04</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIAGNOSTICO" id="132C20BA-33EF-14AE-6D0C-4BA339A26283">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:42:25 UTC</createdTime>
+<generatorID>6AE77857-2077-E1DE-3FCF-D46F880F1041</generatorID>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<engineerTo>
+<item key="F7C49392-C3AC-D3DF-F56A-335C48551078" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7D1FC74F-3D27-002E-667E-FCF51514148A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MONTO PAGADO" id="69A16C5E-0A02-D486-6E49-DB02B02BB57A">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:42:25 UTC</createdTime>
+<generatorID>48ACB68D-058F-FB18-DF50-01D0620976C7</generatorID>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<engineerTo>
+<item key="F7C49392-C3AC-D3DF-F56A-335C48551078" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>68642D6D-99EF-8A20-CE10-7B15F1C310BB</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5511013F-B0A9-9E3C-A75C-FA0A80EA8D63" name="PK ATENCION">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:42:25 UTC</createdTime>
+<generatorID>4E7B2D85-C61D-206D-108F-0CC5B2A67BF2</generatorID>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<engineerTo>
+<item key="F7C49392-C3AC-D3DF-F56A-335C48551078" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A6F22810-EF0B-A957-52ED-28B1A5EBAAD8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

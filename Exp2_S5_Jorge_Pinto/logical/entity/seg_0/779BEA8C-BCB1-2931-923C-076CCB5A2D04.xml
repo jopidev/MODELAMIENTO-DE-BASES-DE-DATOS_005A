@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="779BEA8C-BCB1-2931-923C-076CCB5A2D04" name="COMUNA">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:42:25 UTC</createdTime>
+<generatorID>3E69AB68-18D1-4775-45D7-693C028B0958</generatorID>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<engineerTo>
+<item key="F7C49392-C3AC-D3DF-F56A-335C48551078" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID COMUNA" id="204FB0DF-4C0F-A38A-05F2-751802943BC1">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:42:25 UTC</createdTime>
+<generatorID>0E47A139-0373-38B8-E67A-F5E758D93B17</generatorID>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<engineerTo>
+<item key="F7C49392-C3AC-D3DF-F56A-335C48551078" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>606127F1-CD1C-43EF-89D0-6D0AD5BDDFE5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="ED0412D8-90EB-1CEF-035B-C915FB5B5BE0">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:42:25 UTC</createdTime>
+<generatorID>5E323C4F-F0E2-1E40-787C-ED30D95AA887</generatorID>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<engineerTo>
+<item key="F7C49392-C3AC-D3DF-F56A-335C48551078" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>97562B49-058C-7FAE-125B-25AC22E6C303</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID REGION" id="DFB69C7C-C5A1-2D90-C672-288B387CEDBD">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:42:25 UTC</createdTime>
+<generatorID>DB10A1E3-E2CD-697C-540A-883D6B967ED9</generatorID>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<engineerTo>
+<item key="F7C49392-C3AC-D3DF-F56A-335C48551078" value="true"/>
+</engineerTo>
+<referedAttribute>B516C335-FE89-994D-A0D4-03FA397ECC3C</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0E843A92-C52D-BC5D-44DF-3BF1146C7338</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E331D991-6E09-1892-3F88-87DFA1F11E0B" name="PK COMUNA">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:42:25 UTC</createdTime>
+<generatorID>312701FC-BA2E-A9B9-B8B4-388E75EB4F08</generatorID>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<engineerTo>
+<item key="F7C49392-C3AC-D3DF-F56A-335C48551078" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>204FB0DF-4C0F-A38A-05F2-751802943BC1</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="A0772AB3-F2A7-CE63-B7A8-96240B6C280B" name="UQ COMUNA NOMBRE">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:42:25 UTC</createdTime>
+<generatorID>99875801-32AF-DCEB-6B26-4A4622B1F6CB</generatorID>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<engineerTo>
+<item key="F7C49392-C3AC-D3DF-F56A-335C48551078" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>ED0412D8-90EB-1CEF-035B-C915FB5B5BE0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

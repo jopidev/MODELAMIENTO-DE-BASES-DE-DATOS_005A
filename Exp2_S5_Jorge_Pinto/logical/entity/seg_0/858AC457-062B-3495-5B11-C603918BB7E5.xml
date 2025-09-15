@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="858AC457-062B-3495-5B11-C603918BB7E5" name="ESPECIALIDAD">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:42:25 UTC</createdTime>
+<generatorID>C7404E70-3124-9FBA-6F76-C83A8CCB17F1</generatorID>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<engineerTo>
+<item key="F7C49392-C3AC-D3DF-F56A-335C48551078" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID ESPECIALIDAD" id="849C00C8-A0D6-F2D2-ED20-991473AB9047">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:42:25 UTC</createdTime>
+<generatorID>2B99A50E-7C8C-DDB6-6BCF-D27AE0EE469E</generatorID>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<engineerTo>
+<item key="F7C49392-C3AC-D3DF-F56A-335C48551078" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>606127F1-CD1C-43EF-89D0-6D0AD5BDDFE5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="78F7F980-1F69-20AB-9E58-1FF4819D3E00">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:42:25 UTC</createdTime>
+<generatorID>101B1AF3-0677-6C69-1C89-0FE74654D311</generatorID>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<engineerTo>
+<item key="F7C49392-C3AC-D3DF-F56A-335C48551078" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E7A078F5-E31C-E309-3E5A-4B11E788635B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E75B92E7-93E8-B97A-8429-6268D49F6724" name="PK ESPECIALIDAD">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:42:25 UTC</createdTime>
+<generatorID>65823DE8-9007-87BE-5958-15B99AEA4F50</generatorID>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<engineerTo>
+<item key="F7C49392-C3AC-D3DF-F56A-335C48551078" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>849C00C8-A0D6-F2D2-ED20-991473AB9047</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="A9CBDEB5-607C-DF49-CB5B-96D490532BC1" name="UQ ESPECIALIDAD NOMBRE">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:42:25 UTC</createdTime>
+<generatorID>2013E930-DB7E-641B-0F64-F21F4F299387</generatorID>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<engineerTo>
+<item key="F7C49392-C3AC-D3DF-F56A-335C48551078" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>78F7F980-1F69-20AB-9E58-1FF4819D3E00</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

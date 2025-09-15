@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="COMUNA" directorySegmentName="seg_0" id="3E69AB68-18D1-4775-45D7-693C028B0958">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:41:10 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_COMUNA" id="0E47A139-0373-38B8-E67A-F5E758D93B17">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:41:10 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="5E323C4F-F0E2-1E40-787C-ED30D95AA887">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:41:10 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_REGION" id="907E9F96-20A7-B67D-DEF6-D69FF358B7C8">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:41:10 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IX_COMUNA_REGION" id="7F360697-D588-5841-6CF1-DE224964472D">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:41:10 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<logging></logging>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_COMUNA_REGION" id="697F1A1F-0474-4D35-0457-3F9C68C2FDCA">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:41:10 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_COMUNA" id="312701FC-BA2E-A9B9-B8B4-388E75EB4F08">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:41:10 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="UQ_COMUNA_NOMBRE" id="99875801-32AF-DCEB-6B26-4A4622B1F6CB">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:41:10 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

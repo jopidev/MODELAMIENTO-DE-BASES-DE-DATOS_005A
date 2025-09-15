@@ -1,0 +1,188 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0962D6AE-4033-2654-CD19-48DEA588C110" name="ATENCION_EXAMEN">
+<sourceDDLFile>centro_medico_semana5.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:41:10 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<importedID>88A81F66-EBCA-9BCA-7792-78D86569F5B3</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ATENCION" id="0501999F-E899-83CA-D77E-7A01D04AF0F6">
+<sourceDDLFile>centro_medico_semana5.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:41:10 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<importedID>9941B093-F709-4EB4-3609-B631A4A172EF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>96B11382-8F68-ED69-8562-CE739C6365F7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="661030A7-342F-CFE8-111D-B570B754050A" referredColumn="5280BB89-EBB6-D428-05E3-ED5E423C7FD6"/>
+</associations>
+</Column>
+<Column name="COD_EXAMEN" id="0A685271-BF82-B12A-3FFA-6C7A319F958B">
+<sourceDDLFile>centro_medico_semana5.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:41:10 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<importedID>2549DA51-42FB-BAEF-4660-9FB10F4C25CC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AE00D354-EAFB-9FC9-8A5D-49C4F71BC4F3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C6851DE-D844-A0B1-2F2C-CD78A6FB7D2F" referredColumn="FBB5B9DC-6FE4-BB77-22DA-5AC2F63F70FC"/>
+</associations>
+</Column>
+<Column name="RUT_PACIENTE" id="F0D2E0D8-20E9-BFF4-A917-03FDABD10A47">
+<sourceDDLFile>centro_medico_semana5.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:41:10 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<importedID>7D0EB92F-5C9B-A839-9021-11D6AFA2109F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E86F3686-A0FD-E9FE-C2A1-E9BAB242EC04</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BBDA1AE7-0D4A-EE7A-C730-5511FB2BDE56" referredColumn="2478B4BD-4660-90B4-E097-994AC82114BB"/>
+</associations>
+</Column>
+<Column name="RUT_MEDICO" id="31CAAF0B-0762-9AEE-7BE1-8D5949170012">
+<sourceDDLFile>centro_medico_semana5.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:41:10 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<importedID>0899B6A7-438C-80D4-FF2D-4F69C5D6BB1E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E86F3686-A0FD-E9FE-C2A1-E9BAB242EC04</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="01776814-2B50-A478-F862-D2799F7EE7A1" referredColumn="5F371934-3EAC-1AF5-B640-FBFD04DFB50B"/>
+</associations>
+</Column>
+<Column name="FECHA_SOLICITUD" id="0B304F1B-DAE2-B4CF-8034-9FF6E46A7620">
+<sourceDDLFile>centro_medico_semana5.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:41:10 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<importedID>0BDA6422-A337-3E12-08E1-53F1773A00C0</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>3F1C4184-0CBB-BD5B-0F25-24760DB0E76B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESULTADO" id="61C766BA-FF52-FD00-3160-24BCA1BA2A53">
+<sourceDDLFile>centro_medico_semana5.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:41:10 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<importedID>466AF929-0919-3E49-7677-174CB5DB52F7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2C2366D2-206D-57ED-CDCF-E85EAA6DC251</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_RESULTADO" id="B3A28DCD-59E3-8822-1E20-E6D962FF1695">
+<sourceDDLFile>centro_medico_semana5.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:41:10 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<importedID>BBD3107A-2A5B-5502-59D7-B6D3BBA4BD71</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>3F1C4184-0CBB-BD5B-0F25-24760DB0E76B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F0325EE-0D71-8514-46F7-541B60F2A4CC" name="PK_ATENCION_EXAMEN">
+<sourceDDLFile>centro_medico_semana5.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:41:10 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<importedID>CBDBC4B8-D41B-CAFE-8280-76B7FE3D8957</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0501999F-E899-83CA-D77E-7A01D04AF0F6"/>
+<colUsage columnID="0A685271-BF82-B12A-3FFA-6C7A319F958B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78B7070D-647D-A692-6BCF-4C5A7EDD7A3F" name="IX_AE_EXAMEN">
+<sourceDDLFile>centro_medico_semana5.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:41:10 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<importedID>EA2A81BD-3F61-C9D5-291C-F11FE1FBE48C</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A685271-BF82-B12A-3FFA-6C7A319F958B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4CB73D14-611E-1646-C21E-917E333F7B43" name="FK_AE_ATE">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:41:10 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0501999F-E899-83CA-D77E-7A01D04AF0F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3DD32D93-431C-C141-C716-AE74EC1D18D4" name="FK_AE_EXA">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:41:10 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A685271-BF82-B12A-3FFA-6C7A319F958B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C153A1E-4269-4292-0FF3-9FAEBA7FA4B1" name="FK_AE_MED">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:41:10 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31CAAF0B-0762-9AEE-7BE1-8D5949170012"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D131763-BF58-9347-7736-3872DDC3C24D" name="FK_AE_PAC">
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:41:10 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0D2E0D8-20E9-BFF4-A917-03FDABD10A47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CHK_AE_FECHAS" directorySegmentName="seg_0" id="EF0CC2BC-A545-77AD-0A95-76A6879376F4">
+<sourceDDLFile>centro_medico_semana5.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:41:10 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<importedID>D215E37F-369A-941E-539E-149FC3743AC9</importedID>
+<rule><![CDATA[FECHA_RESULTADO IS NULL OR FECHA_RESULTADO >= FECHA_SOLICITUD]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

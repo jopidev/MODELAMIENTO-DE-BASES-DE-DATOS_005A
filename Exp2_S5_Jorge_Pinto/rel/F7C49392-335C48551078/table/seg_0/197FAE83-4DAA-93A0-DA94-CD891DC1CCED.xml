@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="197FAE83-4DAA-93A0-DA94-CD891DC1CCED" name="AFP">
+<sourceDDLFile>centro_medico_semana5.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:41:10 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<importedID>41C82588-7A02-58EC-B1FD-3E0E1FD20631</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_AFP" id="46ADDEFD-D507-6C43-E945-FC303DF33D29">
+<sourceDDLFile>centro_medico_semana5.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:41:10 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<importedID>4E9F7AC1-7FE0-AE42-AD24-ADD4CC6C4F73</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0E843A92-C52D-BC5D-44DF-3BF1146C7338</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="F3047E86-4C79-414A-3068-2F9995CEF0A3">
+<sourceDDLFile>centro_medico_semana5.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:41:10 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<importedID>4262E69F-F050-C767-7DAA-F7C72712A026</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0F6252E6-0E50-2F66-FD4B-88832CDD0780</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="925259DB-A74F-54CC-252A-FED1201A11C7" name="PK_AFP">
+<sourceDDLFile>centro_medico_semana5.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:41:10 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<importedID>309CD562-E523-CF71-64B4-80F8316D10C5</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46ADDEFD-D507-6C43-E945-FC303DF33D29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EAA88FF4-C5AC-48BD-EB16-97E467CA615B" name="UQ_AFP_NOMBRE">
+<sourceDDLFile>centro_medico_semana5.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:41:10 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<importedID>134A02BA-2537-377E-0442-9B0B2373029C</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3047E86-4C79-414A-3068-2F9995CEF0A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

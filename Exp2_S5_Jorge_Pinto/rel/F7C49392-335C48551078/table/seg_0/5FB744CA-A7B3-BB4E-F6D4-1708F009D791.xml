@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5FB744CA-A7B3-BB4E-F6D4-1708F009D791" name="EXAMEN">
+<sourceDDLFile>centro_medico_semana5.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:41:10 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<importedID>831E0A69-B8CD-DB95-4A34-487BDB52F82D</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_EXAMEN" id="FBB5B9DC-6FE4-BB77-22DA-5AC2F63F70FC">
+<sourceDDLFile>centro_medico_semana5.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:41:10 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<importedID>BE6E30AA-57C8-819D-E2FA-8AEE73DB50C1</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AE00D354-EAFB-9FC9-8A5D-49C4F71BC4F3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="521C8200-E6C4-DF14-CE99-9493DBE0EA24">
+<sourceDDLFile>centro_medico_semana5.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:41:10 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<importedID>0D95622B-7D70-62B8-E238-87540087A72E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1CE59C00-F348-FD04-0C48-10F2240D9ED6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_MUESTRA" id="DD4129EB-66D2-5FB6-10BA-9226D2328949">
+<sourceDDLFile>centro_medico_semana5.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:41:10 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<importedID>7EFB7AEC-8C0A-D26C-9DD0-74534584F00C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0F6252E6-0E50-2F66-FD4B-88832CDD0780</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONDICIONES_PREVIA" id="3AC7BE12-328F-9A12-43EE-170107D29FCA">
+<sourceDDLFile>centro_medico_semana5.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:41:10 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<importedID>A1B16CA2-C8A1-2AA0-E840-AF8D7EC8FDF5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>28A1146C-5700-3E1F-7882-483F15A3CF59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="205DD2F3-CF21-3F80-3342-42A2D882166B" name="PK_EXAMEN">
+<sourceDDLFile>centro_medico_semana5.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:41:10 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<importedID>04C4DB2F-AFC1-A1C4-ED00-4806FA35F37C</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBB5B9DC-6FE4-BB77-22DA-5AC2F63F70FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07328F3C-D444-0843-5656-8123BC7DEA5A" name="UQ_EXAMEN_NOMBRE">
+<sourceDDLFile>centro_medico_semana5.sql</sourceDDLFile>
+<createdBy>Personal</createdBy>
+<createdTime>2025-09-15 19:41:10 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Jorge_Pinto</ownerDesignName>
+<importedID>0517D70F-CC0C-FB73-CA1F-A2B9F2C82DCD</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="521C8200-E6C4-DF14-CE99-9493DBE0EA24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
